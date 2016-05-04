@@ -47,7 +47,7 @@
 /* Headings & Text */
 
 .my-name {
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
 	font-size: 32px;
 	color: white;
 	background: #4aaaa5;
@@ -316,31 +316,135 @@ body:before {
 				max-width: 725px;
 				min-width: 725px;
 			}
-			.connect-section {
-				float: right;
-				min-width: 270px;
-				max-width: 270px;
-				border: solid 1px grey;
-				padding-left: 20px;
-				padding-right: 20px;
-				padding-bottom: 20px;
-				background: white;
-			}
 			.profile-pic {
 				width: 347px;
 				height: 250px;
+			}
+			.image-holder {
+				position: relative;
+				width: 347px;
 				float: left;
-				margin-right: 20px;
-				margin-bottom: 20px;
+			}
+			.image-holder a img {
+				width: 347px;
+				height: 267px;
+			}
+			.image-left {
+				margin-left: 0px;
+				margin-right: 0px;
+			}
+			.image-right {
+				margin-left: 0px;
+				margin-right: 0px;
+			}
+			.project-label {
+				top: 195px;
 			}
     }
 	/* The code below means applies at up to 768px */
     @media only screen and (max-width : 768px) {
-
+			.header-content {
+				max-width: 725px;
+				min-width: 725px;
+			}
+			.main-section {
+				max-width: 725px;
+				min-width: 725px;
+			}
+			.content-area {
+				max-width: 725px;
+				min-width: 725px;
+			}
+			.connect-section {
+				width: 725px;
+				margin-bottom: 40px;
+			}
+			.image-holder {
+				position: relative;
+				width: 309px;
+				float: left;
+			}
+			.image-holder a img {
+				width: 309px;
+				height: 232px;
+			}
+			.project-label {
+				top: 160px;
+			}
+			.image-left {
+				margin-left: 0px;
+				margin-right: 17px;
+			}
+			.image-right {
+				margin-left: 22px;
+				margin-right: 0px;
+			}
     }
 	/* The code below means applies at up to 640px */
     @media only screen and (max-width : 640px) {
+			.my-name {
+				display: block;
+				padding-top: 25px;
+				padding-bottom: 25px;
+				padding-left: 197px;
+			}
+			.nav-text {
+				padding-top: 25px;
+				font-size: 20px;
+				float: none;
+				padding-bottom: 25px;
+			}
 
+			.nav-about {
+				margin-left: 80px;
+				margin-right: 65px;
+			}
+			.nav-portfolio {
+				margin-left: 65px;
+				margin-right: 65px;
+			}
+			.nav-contact {
+				margin-left: 65px;
+			}
+			.main-section {
+				max-width: 593px;
+				min-width: 593px;
+			}
+			.content-area {
+				max-width: 593px;
+				min-width: 593px;
+			}
+			.connect-section {
+				width: 593px;
+				margin-bottom: 40px;
+			}
+			.profile-pic {
+				margin-top: 8px;
+				width: 525px;
+				height: 400px;
+			}
+			#main-section-line {
+				margin-top: 20px;
+			}
+			.image-holder {
+				position: relative;
+				width: 525px;
+				float: left;
+			}
+			.image-holder a img {
+				width: 525px;
+				height: 397px;
+			}
+			.project-label {
+				top: 320px;
+			}
+			.image-left {
+				margin-left: 0px;
+			}
+			.image-right {
+				margin-left: 0px;
+			}
     }
+
 
 /* End Media Queries */
